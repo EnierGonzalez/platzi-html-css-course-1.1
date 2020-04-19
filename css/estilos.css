@@ -1,0 +1,295 @@
+/**Variables en css*/
+
+:root{
+--blue-color:#1AB5E9;
+--blue-trans-color: rgba(26, 181, 233, 0.555);
+}
+html,body{
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+    font-family: helvetica;
+}
+
+nav{
+    display: flex;
+    padding: 10px;
+    background-color: var(--blue-color) ;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+div{
+    
+    align-items: center;
+}
+
+nav ul{
+    display: flex;
+    margin: 0;
+    align-items: center;
+  
+
+}
+
+nav li{
+    padding-right: 15px;
+    color: white;
+    list-style: none;
+
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    font-family: 'Viga', sans-serif;
+}
+
+.gatito_logo{
+    height:40px ;
+    font-weight: 40px ;
+    border: 1px solid whitesmoke;
+    border-radius: 10px;
+    padding: 2px;
+}
+
+li:hover{
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+    background-color: white;
+    color: var(--blue-color) ;
+}
+
+ul a li:hover{
+    color: var(--blue-color) ;
+}
+/*main seccion*/
+.main_seccion{
+    padding: 10%;
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.products{
+    background-image: url(../imagenes/gato_fondo.png);
+    height: 250px;
+    background-size: 60% ;
+    background-repeat: no-repeat;
+    background-position: center ;
+    padding: 15%;
+    display: flex;
+}
+
+.product{
+    padding: 10px;
+    margin-top: -10px;
+    
+}
+.description{
+    background-color:  var(--blue-trans-color);
+    text-align: center;
+    border-radius: 40px;
+    font-family: 'Montserrat Alternates', sans-serif;
+
+}
+.product .content{
+    margin-top: -190px;
+    padding: 15px;
+    box-shadow: 0 0 2px var(--blue-trans-color);
+    color: whitesmoke;
+}
+
+.product .content:hover{
+    margin-top: -220px;
+    padding: 25px;
+    box-shadow: 0 0 4px var(--blue-trans-color);
+    color: whitesmoke;
+
+}
+
+.img_content{
+    text-align: center;
+    height: 200px;
+    width: 400px;
+}
+
+.product_img{
+    height: 80%;
+    
+}
+
+.p_description{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.main_button{
+    width: 30%;
+    padding: 10px;
+    font-size: 15px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    border-radius: 20px;
+    border-style: double;
+    background-color: var(--blue-color) ;
+    margin-bottom: 3px;
+    margin-top: -10px;
+    cursor: pointer;
+}
+
+.main_button:hover{
+    background-color:rgb(255, 255, 255);
+    color: var(--blue-color) ;
+}
+
+.extra-details{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.extra-details-box{
+    width: 33%;
+    align-items: stretch;
+}
+
+.extra-details-title{
+    font-size: 22px;
+    text-align: center;
+}
+
+.extra-details-figure{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.extra-details-img{
+    height: 180px;
+    width: 180px;
+    display: block;
+    margin: auto;
+    
+}
+
+.extra-details-p{
+    
+    width: 60%;
+    font-size: 15px;
+    align-items: center;
+    margin-left: 80px;
+}
+
+.extra-details-p p{
+    text-align: center;
+}
+
+h3{
+    margin-left: 30px;
+    text-align: left;
+}
+
+.menciones{
+    display: flex;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.menciones-box{
+    
+    width: 300px;
+    margin-left: 3%;
+    background-color: #dbdbdb5d;
+    box-shadow: 0px 8px 6px #00000029;
+    
+}
+.menciones-figure1{
+    
+    background-image: url(../imagenes/p1.png);
+    width: 99%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.menciones-figure2{
+   
+    background-image: url(../imagenes/p2.png);
+    width: 99%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.menciones-figure3{
+    
+    background-image: url(../imagenes/p3.png);
+    width: 99%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.menciones-figure4{
+    
+    background-image: url(../imagenes/p4.png);
+    width: 99%;
+    height: 130px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0;
+}
+
+.menciones-h3{
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+.menciones-p{
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.footer{
+    background-color: #313337;
+    height: 60px;
+}
+
+.menciones-h2{
+    font-size: 30px;
+    display: block;
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+/**Venta*/
+.modulo-pago{
+    background-color: white;
+    padding:10px;
+}
+
+.modulo-pago input{
+    margin-top: 4px;
+    width: 100%;height: 35px;
+    border-radius: 5px;
+    border: 1 solid white;
+    box-sizing: border-box;
+}
+
+.modulo-pago-img{
+    max-width: 200px;
+    text-align: center;
+}
+
+label{
+    font-size: 15px;
+    
+}
+/*Venta fin**/

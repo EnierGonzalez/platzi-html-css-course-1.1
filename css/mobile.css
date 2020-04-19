@@ -1,0 +1,63 @@
+@media (max-width: 600px){
+   .main_seccion{
+       padding: 4%;
+   }
+    .products{
+        display: inherit;
+        height: auto;
+        padding-top: 20px !important;
+    }
+
+    .product{
+        margin-top: auto;
+    }
+    .product .content{
+        margin-top: auto;
+        padding: auto;
+        box-shadow: 0 0 2px var(--blue-trans-color);
+        color: whitesmoke;
+    }
+    .product .content:hover{
+        margin-top: auto;
+        padding: auto;
+        box-shadow: 0 0 2px var(--blue-trans-color);
+        color: whitesmoke;
+    }
+
+    .products{
+        background-image: url(../imagenes/gato_fondo.png);
+        background-size: auto;
+        background-repeat: no-repeat;
+        background-position: center ;
+        padding: 15%;
+        
+    }
+
+    .extra-details{
+        display: inherit;
+    }
+
+    .extra-details-box{
+        width: auto;
+    }
+
+    .extra-details-img{
+        height: auto;
+        width: auto;
+    }
+    h3{
+        margin-left:auto;
+        text-align: left;
+    }
+    
+    .menciones{
+        display: inherit;
+    }
+
+    .menciones-box{
+        margin:auto;
+        width: 70%;
+    }
+    
+}
+
